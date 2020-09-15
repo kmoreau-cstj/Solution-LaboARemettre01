@@ -1,5 +1,5 @@
 //Auteur: Aymen El-faid
-//But: Programme qui sépare chaque chiffre d'un nombre de cinque chiffres et les imprime a l'écran verticalement
+//FR : But: Programme qui sÃ©pare chaque chiffre d'un nombre de cinque chiffres et les imprime a l'Ã©cran verticalement
 //Date: 9 Septembre 2020
 
 
@@ -7,8 +7,8 @@
 
 int main()
 {
-	int nombre; //On déclare la variable dans laquelle on stockera la reponse de l'utilisateur
-	int nb1, nb2, nb3, nb4, nb5; //On déclare les 5 variables dans lesquelles on stockera chacun des chiffres séparés du nombre
+	int nombre; //On dÃ©clare la variable dans laquelle on stockera la reponse de l'utilisateur
+	int nb1, nb2, nb3, nb4, nb5; //On dÃ©clare les 5 variables dans lesquelles on stockera chacun des chiffres sÃ©parÃ©s du nombre
 
 	std::cout << "Veuillez entrer un nombre a 5 chiffres: ";
 	std::cin >> nombre;
@@ -26,8 +26,8 @@ int main()
 		
 
 
-		std::cout << nb1 << std::endl << nb2 << std::endl << nb3 << std::endl << nb4 << std::endl << nb5<<std::endl; //On imprime chaque chiffre a l'écran suivi d'un endl.
-		system("pause");//Je mets un system("pause") seulement car mon visual studio ferme la fenêtre immediatement apres l'impression de la réponse et ne me laisse pas le temps de lire ma reponse
+		std::cout << nb1 << std::endl << nb2 << std::endl << nb3 << std::endl << nb4 << std::endl << nb5<<std::endl; //On imprime chaque chiffre a l'Ã©cran suivi d'un endl.
+		system("pause");//Je mets un system("pause") seulement car mon visual studio ferme la fenÃªtre immediatement apres l'impression de la rÃ©ponse et ne me laisse pas le temps de lire ma reponse
 	}
 	else
 	{
